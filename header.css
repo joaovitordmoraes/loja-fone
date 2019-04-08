@@ -23,3 +23,13 @@ a {
     text-decoration: none;
     margin-left: 60px;
 }
+
+.comprar {
+    background-color: #252c41;
+    padding: 17px 60px 20px 60px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    cursor: pointer;
+}
