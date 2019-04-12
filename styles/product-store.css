@@ -1,6 +1,14 @@
+.product-image {
+    float: left;
+    position: absolute;
+    left: 0;
+}
+
 .product {
     font-family: 'Open Sans', sans-serif;
     color: #ffffff;
+    float: right;
+    width: 553px;
 }
 
 .product-title {
