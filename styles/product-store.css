@@ -4,45 +4,45 @@
     left: 0;
 }
 
-.product {
+.product-store {
     font-family: 'Open Sans', sans-serif;
     color: #ffffff;
     float: right;
     width: 553px;
 }
 
-.product-title {
+.product-store > .title {
     font-size: 25px;
     margin-bottom: 98px;
 }
 
-.product-values {
+.product-store > .values {
     font-size: 20px;
     margin-bottom: 28px;
 }
 
-.product-values.-rating {
+.product-store > .values.-rating {
     margin-left: 10px;
 }
 
-.product-values:last-of-type {
+.product-store > .values:last-of-type {
     margin-bottom: 72px;
 }
 
-.product-description {
+.product-store > .description {
     font-size: 18px;
     margin-bottom: 32px;
 }
 
-.product-description.-last {
+.product-store > .description.-last {
     margin-bottom: 98px;
 }
 
-.product-description a{
+.product-store > .description a{
     text-decoration: none;
     color: #ffffff;
 }
 
-.product-button {
+.product-store > .button {
     display: inline-block;
 }
