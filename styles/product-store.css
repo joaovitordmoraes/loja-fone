@@ -1,14 +1,6 @@
-.product-image {
-    float: left;
-    position: absolute;
-    left: 0;
-}
-
 .product-info {
     font-family: 'Open Sans', sans-serif;
     color: #ffffff;
-    float: right;
-    width: 553px;
 }
 
 .product-info > .title {
@@ -25,24 +17,27 @@
     margin-left: 10px;
 }
 
+.product-info > .values.-info {
+    width: 185px;
+    text-align: right;
+}
+
+.product-info .spotlight {
+    text-transform: uppercase;
+    float: left;
+}
+
 .product-info > .values:last-of-type {
     margin-bottom: 72px;
 }
 
 .product-info > .description {
     font-size: 18px;
+    line-height:  1.67;
     margin-bottom: 32px;
 }
 
-.product-info > .description.-last {
-    margin-bottom: 98px;
-}
-
-.product-info > .description a{
+.product-info .-action {
     text-decoration: none;
-    color: #ffffff;
-}
-
-.product-info > .button {
-    display: inline-block;
+    color: inherit;
 }

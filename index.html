@@ -7,15 +7,18 @@
     <title>Loja Fone</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> 
     <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/container-store.css">
     <link rel="stylesheet" href="styles/header-store.css">
-    <link rel="stylesheet" href="styles/button-store.css">
+    <link rel="stylesheet" href="styles/product-image.css">
+    <link rel="stylesheet" href="styles/wrap-product.css">
     <link rel="stylesheet" href="styles/product-store.css">
+    <link rel="stylesheet" href="styles/button-store.css">
 </head>
 <body>
     <div class="container-store">
         <header class="header-store">
-            <h1 class="title">LOGO</h1>
+            <h1 class="title">Logo</h1>
             <nav class="navigation">
                 <a class="action" href="#">Produtos</a>
                 <a class="action" href="#">Serviços</a>
@@ -23,23 +26,26 @@
             </nav>
         </header>
 
-        <img src="images/product-image.png" class="product-image" alt="Imagem do Fone">
+        <figure class="product-image">
+            <img src="images/product-image.png" alt="Imagem do Fone">
+        </figure>
 
-        <dl class="product-info">
-            <dt class="title">Fone top, feliz e caro</dt>
+        <section class="wrap-product">
+            <dl class="product-info">
+                <dt class="title">Fone top, feliz e caro</dt>
+    
+                <dd class="values -rating">4.0 (97)</dd>
+                <dd class="values -info"><strong class="spotlight">Frete</strong> C$ 108</dd>
+                <dd class="values -info"><strong class="spotlight">Preço</strong> C$ 340</dd>
+                <dd class="description">Fone TOP com um cor feliz que não tem fio. A cor também é algo que impressiona junto com o  seu layout modernão! Ele é caro? É! Mas compre que você não vai se arrepender e se você se arrepender pode vender no mercado livre..kkkk</dd>
+                <dd class="description"><a href="#" class="-action">Saber mais...</a></dd>
+            </dl>
+        </section>
 
-            <dd class="values -rating">4.0 (97)</dd>
-            <dd class="values">FRETE C$ 108</dd>
-            <dd class="values">PREÇO C$ 340</dd>
-            <dd class="description">Fone TOP com um cor feliz que não tem fio. A cor também é algo que impressiona junto com o  seu layout modernão! Ele é caro? É! Mas compre que você não vai se arrepender e se você se arrepender pode vender no mercado livre..kkkk</dd>
-            <dd class="description -last"><a href="#">Saber mais...</a></dd>
-            <dd class="button">
-                <button class="button-store -second">Adicionar ao carrinho</button>
-            </dd>
-            <dd class="button">
-                <a href="comprar.html" class="button-store">Comprar</a>
-            </dd>
-        </dl>
+        <button class="button-store -second">Adicionar ao carrinho</button>
+        
+        <a href="comprar.html" class="button-store">Comprar</a>
+            
     </div>
 </body>
 </html>
