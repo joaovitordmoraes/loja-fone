@@ -18,6 +18,15 @@
     float: right;
 }
 
+.header-store .search {
+    color: inherit;
+    text-decoration: none;
+    width: 358px;
+    display: inline-block;
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 8px;
+}
+
 .header-store .action {
     color: inherit;
     text-decoration: none;
