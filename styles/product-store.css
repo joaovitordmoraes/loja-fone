@@ -5,7 +5,17 @@
 
 .product-info > .title {
     font-size: 25px;
-    margin-bottom: 98px;
+    margin-bottom: 50px;
+}
+
+.product-info > .score {
+    margin-bottom: 25px;
+}
+
+.product-info .star {
+    display: inline-block;
+    margin-left: 8px;
+    cursor: pointer;
 }
 
 .product-info > .values {
