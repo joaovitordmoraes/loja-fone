@@ -9,7 +9,7 @@
 }
 
 .product-info > .score {
-    margin-bottom: 25px;
+    margin-bottom: 10px;
 }
 
 .product-info .star {
@@ -45,6 +45,10 @@
     font-size: 18px;
     line-height:  1.67;
     margin-bottom: 32px;
+}
+
+.product-info > .description.-more {
+    margin-bottom: 0;
 }
 
 .product-info .-action {
