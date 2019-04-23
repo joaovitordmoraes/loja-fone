@@ -1,0 +1,5 @@
+.favorite {
+    position: absolute;
+    transform: translateX(calc(-100% - 46px));
+    cursor: pointer;
+}
