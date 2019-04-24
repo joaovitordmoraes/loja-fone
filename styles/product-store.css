@@ -16,6 +16,11 @@
     display: inline-block;
     margin-left: 8px;
     cursor: pointer;
+    transition: all 200ms linear;
+}
+
+.product-info .star:hover {
+    transform: scale(1.1);
 }
 
 .product-info > .values {

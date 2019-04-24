@@ -2,4 +2,13 @@
     position: absolute;
     transform: translateX(calc(-100% - 46px));
     cursor: pointer;
+    top: 10px;
+}
+
+.favorite > img {
+    transition: all 200ms linear;
+}
+
+.favorite > img:hover {
+    transform: scale(1.1);
 }
