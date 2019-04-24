@@ -34,8 +34,19 @@
     color: inherit;
     text-decoration: none;
     margin-left: 60px;
+    position: relative;
 }
 
-.header-store .action:hover {
-    border-bottom: 1px solid #ffffff;
+.header-store .action::before {
+    content: '';
+    position: absolute;
+    width: 0;
+    bottom: 0;
+    height: 1px;
+    background-color: #ffffff;
+    transition: all 300ms linear;
+}
+
+.header-store .action:hover::before {
+    width: 100%;
 }
