@@ -35,3 +35,7 @@
     text-decoration: none;
     margin-left: 60px;
 }
+
+.header-store .action:hover {
+    border-bottom: 1px solid #ffffff;
+}
