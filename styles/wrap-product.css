@@ -9,3 +9,9 @@
     position: absolute;
     transform: translateY(calc(100% + 70px));
 }
+
+@media (max-height: 728px) {
+    .wrap-product > .buttons {
+        transform: translateY(calc(100% + 16px));
+    }
+}

@@ -50,3 +50,10 @@
 .header-store .action:hover::before {
     width: 100%;
 }
+
+@media (max-height: 728px) {
+    .header-store {
+        margin-bottom: 80px;
+        margin-right: 60px;
+    }
+}
