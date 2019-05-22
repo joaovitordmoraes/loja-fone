@@ -12,3 +12,11 @@
 .favorite > img:hover {
     transform: scale(1.1);
 }
+
+@media (max-width: 768px) {
+    .favorite {
+        position: relative;
+        transform: none;
+        margin-bottom: 20px;
+    }
+}

@@ -37,3 +37,11 @@
     color: #e24647;
     background-color: #ffffff;;
 }
+
+@media (max-width: 660px) {
+    .button-store.-second {
+        margin-right: 0;
+        margin-bottom: 20px;
+        display: block;
+    }
+}

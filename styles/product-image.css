@@ -7,3 +7,50 @@
     border-bottom-right-radius: 150px;
     margin-right: 156px;
 }
+
+@media (max-width: 1250px) {
+    .product-image {
+        margin-right: 125px;
+    }
+}
+
+@media (max-width: 1215px) {
+    .product-image {
+        width: 100%;
+        border-radius: 0;
+        margin-bottom: 50px;
+    }
+
+    .product-image > img {
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 975px) {
+    .product-image {
+        padding-top: 30px;
+        height: auto;
+    }
+
+    .product-image > img {
+        max-width: 100%;
+        width: 40%;
+    }
+}
+
+@media (max-width: 768px) {
+    .product-image > img {
+        width: 50%;
+    }
+}
+
+@media (max-width: 490px) {
+    .product-image {
+        padding-top: 20px;
+    }
+
+    .product-image > img {
+        width: 55%;
+    }
+}
