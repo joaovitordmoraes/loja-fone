@@ -16,10 +16,15 @@
     }
 }
 
-@media (max-width: 1215px) {
+
+@media (max-width: 1232px) {
     .wrap-product {
         display: block;
         margin: 0 auto;
+    }
+
+    .wrap-product > .buttons {
+        transform: translateY(100%);
     }
 }
 
@@ -29,7 +34,7 @@
     }
 }
 
-@media (max-width: 660px) {
+@media (max-width: 675px) {
     .wrap-product > .buttons {
         transform: none;
         margin-top: 30px;
