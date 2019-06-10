@@ -38,10 +38,14 @@
     background-color: #ffffff;;
 }
 
-@media (max-width: 660px) {
+@media (max-width: 675px) {
     .button-store.-second {
         margin-right: 0;
         margin-bottom: 20px;
         display: block;
+    }
+
+    .button-store.-second, .button-store {
+        width: 100%;
     }
 }

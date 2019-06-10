@@ -25,6 +25,12 @@
     }
 }
 
+@media (max-width: 1234px) {
+    .container-store {
+        padding: 55px 0 165px 0;
+    }
+}
+
 @media (max-width: 1250px) {
     .wrap-product {
         margin-right: 40px;

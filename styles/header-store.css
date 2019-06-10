@@ -58,6 +58,12 @@
     }
 }
 
+@media (max-width: 1234px) {
+    .header-store {
+        margin: 0 60px 138px 60px;
+    }
+}
+
 @media (max-width: 1215px) {
     .header-store > .title {
         float: none;
