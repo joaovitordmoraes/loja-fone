@@ -1,7 +1,8 @@
-const $addcarrinho = window.document.querySelector('.-second');
+const $btnchart = window.document.querySelector('.-second');
+let $addchart = window.document.querySelector('.action.-last');
 
-$addcarrinho.addEventListener('click', addCarrinho);
+$btnchart.addEventListener('click', addChart);
 
-function addCarrinho() {
-    console.log('Item adicionado no carrinho');
+function addChart() {
+    $addchart.textContent = 'Carrinho (11)';
 }
