@@ -13,12 +13,6 @@
     transform: scale(1.1);
 }
 
-.heart.-active {
-    background: url('../images/heart-full.png');
-    width: 34px;
-    height: 29px;
-}
-
 @media (max-width: 768px) {
     .favorite {
         position: relative;

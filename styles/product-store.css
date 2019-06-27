@@ -23,6 +23,12 @@
     transform: scale(1.1);
 }
 
+.product-info .star.-active {
+    background: url('../images/star-full.png');
+    width: 25px;
+    height: 24px;
+}
+
 .product-info > .values {
     font-size: 20px;
     margin-bottom: 28px;
