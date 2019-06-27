@@ -1,8 +1,10 @@
-const $btnchart = window.document.querySelector('.-second');
-let $addchart = window.document.querySelector('.action.-last');
+const $btnchart = document.querySelector('.-second');
+let initialvalue = 10;
 
 $btnchart.addEventListener('click', addChart);
 
 function addChart() {
-    $addchart.textContent = 'Carrinho (11)';
+    const $addchart = document.querySelector('.action.-last');
+    
+    $addchart.textContent = `Carrinho (${++initialvalue})`;
 }
