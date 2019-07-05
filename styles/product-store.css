@@ -23,10 +23,16 @@
     transform: scale(1.1);
 }
 
-.product-info .star.-active {
-    background: url('../images/star-full.png');
-    width: 25px;
-    height: 24px;
+.product-info .star.-active > .icon {
+    display: none;
+}
+
+.product-info .star.-active > .-active {
+    display: block;
+}
+
+.product-info .star > .-active {
+    display: none;
 }
 
 .product-info > .values {

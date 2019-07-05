@@ -1,4 +1,4 @@
-const $btnchart = document.querySelector('.-second');
+const $btnchart = document.querySelector('.button-store.-second');
 let initialvalue = 10;
 
 $btnchart.addEventListener('click', addChart);
