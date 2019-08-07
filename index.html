@@ -22,11 +22,11 @@
         <header class="header-store">
             <h1 class="title">Logo</h1>
             <nav class="navigation">
-                <div class="search-box">
-                    <input type="search" class="search" placeholder="Busca">
-
-                    <img src="images/search.png" class="search-icon" alt="">
-                </div>
+                <form class="search-box">
+                    <input type="search" class="search" placeholder="Busca"><!-- 
+                    --><input type="image" src="images/search.png" class="search-icon -open -active"><!-- 
+                    --><input type="image" src="images/close.png" class="search-icon -close">
+                </form>
                 <a class="action" href="#">Produtos</a>
                 <a class="action" href="#">Serviços</a>
                 <a class="action -last" href="#">Carrinho (10)</a>
@@ -90,6 +90,6 @@
 
     <script src="js/favorite-product.js"></script>
     <script src="js/button-store.js"></script>
-    <script src="js/header-store.js"></script>
+    <script src="js/search-box.js"></script>
 </body>
 </html>
