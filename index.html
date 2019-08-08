@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Loja Fone</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> 
@@ -27,9 +27,12 @@
                     --><input type="image" src="images/search.png" class="search-icon -open -active"><!-- 
                     --><input type="image" src="images/close.png" class="search-icon -close">
                 </form>
-                <a class="action" href="#">Produtos</a>
-                <a class="action" href="#">Serviços</a>
-                <a class="action -last" href="#">Carrinho (10)</a>
+                <ul id="menu" class="list">
+                    <li class="item -menu"><a href="#menu" class="menu">Menu</a></li>
+                    <li class="item"><a class="action" href="#">Produtos</a></li>
+                    <li class="item"><a class="action" href="#">Serviços</a></li>
+                    <li class="item -last"><a class="action -last" href="#">Carrinho (10)</a></li>
+                </ul>
             </nav>
         </header>
 
@@ -91,5 +94,6 @@
     <script src="js/favorite-product.js"></script>
     <script src="js/button-store.js"></script>
     <script src="js/search-box.js"></script>
+    <script src="js/header-store.js"></script>
 </body>
 </html>
